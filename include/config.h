@@ -1,7 +1,7 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define RESPONSE_LENGTH 2048     //do dai data nhan ve tu tablet
+#define RESPONSE_LENGTH 512     //do dai data nhan ve tu tablet
 #define EEPROM_BLUE_SSID_START 0
 #define EEPROM_BLUE_SSID_END 32
 #define EEPROM_BLUE_PASS_START 33
@@ -28,6 +28,7 @@
 #define MSG_AUTO_CLOSE        13
 #define MSG_MIN_STOP_SPEED    14
 
-#define MSG_SET_ID       100
-
+#define MSG_SET_ID              100
+#define MSG_CHANGE_NAME_START   101
+#define MSG_MAX_NAME_LENGTH     16
 #endif
